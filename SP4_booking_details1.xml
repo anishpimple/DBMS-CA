@@ -1,0 +1,7 @@
+﻿<Booking>
+  <BookingDetails>
+    <SpecialInstructions>No special instructions</SpecialInstructions>
+    <ItemsNeeded>Need coffee</ItemsNeeded>
+    <EstimatedDuration>3</EstimatedDuration>
+  </BookingDetails>
+</Booking>
