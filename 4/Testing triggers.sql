@@ -20,7 +20,7 @@ UPDATE Providers
 SET is_available = 1
 WHERE provider_id = 2;
 
--- After making provider 2 available we should be able to book them
+-- After making provider two available we should be able to boob him
 INSERT INTO Bookings (user_id, provider_id, category_id, address_id, booking_date, time_slot, status)
 VALUES (1, 2, 2, 1, '2025-06-01', '13:00-15:00', 'Pending');
 
