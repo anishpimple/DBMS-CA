@@ -28,4 +28,12 @@ WHERE
     ConfirmedBookings > 1
 ORDER BY 
     Revenue DESC;
-GO
+	GO
+	-- Demonstration 2 for view2
+	SELECT ProviderName, ServiceName, Rating FROM ProviderServiceDetails 
+	WHERE Available = 1 ORDER BY Rating DESC;
+
+	-- Test ServiceBookingSummary view
+	SELECT ServiceName, TotalBookings, Revenue FROM ServiceBookingSummary 
+	ORDER BY Revenue DESC;
+	GO

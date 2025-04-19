@@ -1,4 +1,6 @@
-EXEC GetAvailableProvidersForService @category_id = 3;
+EXEC GetAvailableProvidersForService @category_id = 1;  -- House Cleaning
+EXEC GetAvailableProvidersForService @category_id = 3;  -- Electrical
+EXEC GetAvailableProvidersForService @category_id = 999;  -- Non-existent category
 
 EXEC CalculateNewAverage @provider_id=1, @new_rating=2;
 EXEC UpdateProviderRating @booking_id=1, @provider_id=1, @user_id=1, @rating=2
